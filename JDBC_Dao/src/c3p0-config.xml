@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/stu_exam</property>
+        <property name="user">root</property>
+        <property name="password">zhou</property>
+    </default-config>
+
+    <!-- 加载指定 连接方式 -->
+    <name-config name="lgt">
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/jian</property>
+        <property name="user">root</property>
+        <property name="password">zhou</property>
+    </name-config>
+
+
+</c3p0-config>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<c3p0-config>
+    <!--  执行默认的连接数据可的配置  -->
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/jian</property>
+        <property name="user">root</property>
+        <property name="password">zhou</property>
+
+    </default-config>
+
+    <!--    执行指定的连接数据库的配置-->
+    <named-config name="first">
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/jian</property>
+        <property name="user">root</property>
+        <property name="password">zhou</property>
+    </named-config>
+
+
+</c3p0-config>

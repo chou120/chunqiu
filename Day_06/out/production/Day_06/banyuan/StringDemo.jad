@@ -1,0 +1,47 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   StringDemo.java
+
+package banyuan;
+
+import java.io.PrintStream;
+import java.io.UnsupportedEncodingException;
+
+public class StringDemo
+{
+
+    public StringDemo()
+    {
+    }
+
+    public static void main(String args[])
+    {
+        String s = "hello Java";
+        s = "\u4F60\u597D\u5E78\u798F\u554A!!!";
+        String st = new String();
+        System.out.println((new StringBuilder()).append("st\u7684\u5185\u5BB9:").append(st).append("|").toString());
+        System.out.println(st.length());
+        byte by[] = {
+            68, 67, 98
+        };
+        String strs = "\u4F60\u597D\u54C8\u54C8\u54C8";
+        by = strs.getBytes();
+        try
+        {
+            st = new String(by, "ISO-8859-1");
+        }
+        catch(UnsupportedEncodingException e)
+        {
+            e.printStackTrace();
+        }
+        System.out.println((new StringBuilder()).append("iso-8859-1\u5BF9\u5B57\u8282\u6570\u7EC4\u8FDB\u884C\u89E3\u7801:").append(st).toString());
+        char ch[] = {
+            '\u7537', '\u5973', '\u642D', '\u914D', 'A', 'B'
+        };
+        st = new String(ch, 2, 3);
+        String sst = "nihao";
+        st = new String(sst);
+        System.out.println(st == sst);
+    }
+}

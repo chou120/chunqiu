@@ -1,0 +1,28 @@
+使用brew 安装mysql注意事项:
+1. 使用 brew  install mysql(@5.7)  安装制定版本的mysql数据库  建议5.7  稳定
+   可以使用  brew  reinstall  mysql@5.7  重新安装mysql
+2.安装完了之后 会在命令行有一句如下的代码:
+   export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+把这段代码负债到  open .bash_profile 文件中
+    如果没有该文件 使用 touch .bash_profile 创建文件
+3.如果以上步骤没有问题
+  安装完了mysql  启动   mysql.server start   (停止mysql mysql.server start)
+  进入root 用户    mysql -uroot -p 无需设置密码直接进入命令行
+ 注意: 如果有数据库账户   那么上面就是   mysql -u  用户名 -p 密码
+
+4.进入根用户之后  使用如下命令
+	show databases; 会显示一些数据库名字  其中有 mysql 和  sys的 数据库
+重新设置一下根目录的登录密码:
+	进入mysql 命令行之后  set password for 'root'@'localhost'=password('你的新密码');
+然后重新进入mysql数据库
+    
+5.在根目录下创建数据库  zhou 
+	create database zhou;
+  使用这个数据库:
+	use zhou;
+  这样就可以在数据库中创建表操作了
+
+
+查看数据库的字符编码
+show variables like 'char%';  如果查看出来都是utf-8的 那么无需修改编码格式
+//可以通过  set  names 'utf8'； 设置编码集

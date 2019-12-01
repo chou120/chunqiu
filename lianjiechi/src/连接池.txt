@@ -1,0 +1,22 @@
+proxool 更新时间截止2008年。速度可以，稳定性稍差，发较高的情况下会出错。
+
+c3p0 太古老，代码及其复杂，不利于维护。貌似都比它强。
+
+dbcp 是 apache上的一个 java 连接池项目，也是 tomcat 使用的连接池组件。
+
+druid 是alibba出品的一个功能比较全面，且扩展性较好的数据库连接池，比较方便对jdbc接口进行监控跟踪等。
+
+BoneCP 13年前最快的连接池项目。2013年后不再更新，心灰意冷。
+
+HikariCP 光连接池，目前被SpringBoot2官方推荐使用的数据库连接池。
+
+ 各数据库连接池测试结论 
+   1：性能方面 HikariCP>Druid>tomcat-jdbc>dbcp>c3p0 。hikariCP的高性能得益于最大限度的避免锁竞争。
+
+   2：druid功能最为全面，sql拦截等功能，统计数据较为全面，具有良好的扩展性。
+
+   3：综合性能，扩展性等方面，可考虑使用druid或者hikariCP连接池。
+
+   4：可开启prepareStatement缓存，对性能会有大概20%的提升。
+
+springboot2 使用的就是 HikariCP 连接池     目前大多数开发公司都是用阿里的
