@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a78644f-0ad9-40a3-8286-b0d72d727a06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GUI/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/GUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/guiAPP.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/lib/mysql-connector-java-5.1.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/META-INF/GUI.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/StudentMenu$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/StudentMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/dao/QuestionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/dao/impl/QuestionImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/demo/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/demo/Demo2_login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/pojo/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/pojo/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/server/ServerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/server/TestServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/service/QuestionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/service/QuestionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/service/UserviceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/AddUser$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/AddUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/BJPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Login$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Login$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Login$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Login$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Login$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Login$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Login$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Question$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Question$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Question$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Question$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Question$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/StudentMenu$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/StudentMenu$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/StudentMenu$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/StudentMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Teacher$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Teacher$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Teacher$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Teacher$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Teacher$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/User$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/User$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/User$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/ui/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/util/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/util/VerticalMenuBar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/banyuan/gui1/util/VerticalMenuBarDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/out/production/GUI/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/StudentMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/dao/QuestionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/dao/impl/QuestionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/demo/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/demo/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/demo/Demo2_login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/pojo/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/server/ServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/server/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/service/QuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/service/UserviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/ui/AddUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/ui/AnswerToQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/ui/BJPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/ui/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/ui/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/ui/StudentMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/ui/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/ui/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/src/com/banyuan/gui1/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/target/com/banyuan/gui1/demo/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML/src/com/banyuan/xmlDemo/dom/DemoXML2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML/src/com/banyuan/xmlDemo/sax/MyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML/src/com/banyuan/xmlDemo/sax/SaxDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML" beforeDir="false" afterPath="$PROJECT_DIR$/XML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/XML/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/src/com/banyuan/xmlDemo/dom/DemoXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/XML/src/com/banyuan/xmlDemo/dom/DemoXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/src/com/banyuan/xmlDemo/dom4j/DemoXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/XML/src/com/banyuan/xmlDemo/dom4j/DemoXML.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1b4VC2mqdc0VyvBFiXfDjxmcsu0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a78644f-0ad9-40a3-8286-b0d72d727a06" name="Default Changelist" comment="" />
+      <created>1587891221731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587891221731</updated>
+      <workItem from="1587891223058" duration="168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
